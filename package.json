@@ -1,0 +1,45 @@
+{
+  "name": "@chubbyts/chubbyts-http-types",
+  "version": "1.0.0",
+  "description": "Http Request/Response types with middleware and handler, PSR-15 inspired.",
+  "keywords": [
+    "chubbyts",
+    "request",
+    "server-request",
+    "response",
+    "middleware",
+    "handler",
+    "psr-15"
+  ],
+  "author": "Dominik Zogg",
+  "license": "MIT",
+  "repository": "chubbyts/chubbyts-http-types",
+  "scripts": {
+    "cs-fix": "prettier --write src",
+    "cs": "prettier --check src",
+    "infection": "stryker run",
+    "build": "tsc",
+    "prepare": "rm -Rf dist && npm run build && npm run cs"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "tabWidth": 2,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=12"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^12",
+    "prettier": "^2.4.0",
+    "typescript": "^4.4.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
