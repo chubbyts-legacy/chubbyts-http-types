@@ -20,7 +20,7 @@ npm i @chubbyts/chubbyts-http-types
 
 ## Copyright
 
-Dominik Zogg 2022
+2023 Dominik Zogg
 
 [1]: https://www.npmjs.com/package/@chubbyts/chubbyts-http-types
 [2]: https://www.php-fig.org/psr/psr-15
