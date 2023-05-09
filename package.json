@@ -1,6 +1,6 @@
 {
   "name": "@chubbyts/chubbyts-http-types",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Http Request/Response types with middleware and handler, PSR-15 inspired.",
   "keywords": [
     "chubbyts",
@@ -17,6 +17,8 @@
   "scripts": {
     "cs-fix": "prettier --write src",
     "cs": "prettier --check src",
+    "lint-fix": "eslint src --fix",
+    "lint": "eslint src",
     "infection": "stryker run",
     "build": "tsc",
     "prepare": "rm -Rf dist && npm run build && npm run cs"
@@ -31,13 +33,14 @@
     "dist"
   ],
   "engines": {
-    "node": ">=12"
+    "node": ">=16"
   },
   "dependencies": {},
   "devDependencies": {
-    "@types/node": "^18.15.3",
-    "prettier": "^2.8.4",
-    "typescript": "^4.9.5"
+    "@chubbyts/chubbyts-eslint": "^1.1.1",
+    "@types/node": "^20.1.1",
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.4"
   },
   "publishConfig": {
     "access": "public"
