@@ -1,7 +1,7 @@
 {
   "name": "@chubbyts/chubbyts-http-types",
   "type": "module",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Http Request/Response types with middleware and handler, PSR-15 inspired.",
   "keywords": [
     "chubbyts",
@@ -32,6 +32,14 @@
   "files": [
     "dist"
   ],
+  "exports": {
+    "./*": {
+      "types": "./*.d.ts",
+      "require": "./*.cjs",
+      "import": "./*.js",
+      "default": "./*.js"
+    }
+  },
   "engines": {
     "node": ">=16"
   },
