@@ -26,7 +26,7 @@ Http Request/Response types with middleware and handler, [PSR-15][2] inspired.
 Through [NPM](https://www.npmjs.com) as [@chubbyts/chubbyts-http-types][1].
 
 ```ts
-npm i @chubbyts/chubbyts-http-types@^1.1.1
+npm i @chubbyts/chubbyts-http-types@^1.2.0
 ```
 
 ## Copyright
