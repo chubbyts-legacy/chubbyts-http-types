@@ -1,7 +1,1 @@
-{
-    "extends": "./tsconfig.json",
-    "compilerOptions": {
-        "outDir": "./dist/cjs",
-        "module": "commonjs"
-    }
-}
+node_modules/@chubbyts/chubbyts-packaging/tsconfig.cjs.json

@@ -16,7 +16,7 @@
   "license": "MIT",
   "repository": "chubbyts/chubbyts-http-types",
   "scripts": {
-    "build": "rm -rf ./dist && tsc -b ./tsconfig.types.json ./tsconfig.esm.json ./tsconfig.cjs.json && node ./rename-commonjs.cjs",
+    "build": "rm -rf ./dist && tsc -b ./tsconfig.types.json ./tsconfig.esm.json ./tsconfig.cjs.json && node ./rename-commonjs.js",
     "cs-fix": "prettier --write src",
     "cs": "prettier --check src",
     "lint-fix": "eslint src --fix",
@@ -45,6 +45,7 @@
   },
   "devDependencies": {
     "@chubbyts/chubbyts-eslint": "^2.0.2",
+    "@chubbyts/chubbyts-packaging": "^1.0.3",
     "@types/node": "^20.4.4",
     "prettier": "^3.0.0",
     "typescript": "^5.1.6"

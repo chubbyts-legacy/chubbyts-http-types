@@ -1,7 +1,1 @@
-{
-    "extends": "./tsconfig.json",
-    "compilerOptions": {
-        "outDir": "./dist",
-        "module": "esnext"
-    }
-}
+node_modules/@chubbyts/chubbyts-packaging/tsconfig.esm.json
