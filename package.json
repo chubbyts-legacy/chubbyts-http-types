@@ -1,7 +1,7 @@
 {
   "name": "@chubbyts/chubbyts-http-types",
   "type": "module",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Http Request/Response types with middleware and handler, PSR-15 inspired.",
   "keywords": [
     "chubbyts",
@@ -16,7 +16,7 @@
   "license": "MIT",
   "repository": "chubbyts/chubbyts-http-types",
   "scripts": {
-    "build": "rm -rf ./dist && tsc -b ./tsconfig.types.json ./tsconfig.esm.json ./tsconfig.cjs.json && node ./rename-commonjs.js",
+    "build": "node ./build.js",
     "cs-fix": "prettier --write src",
     "cs": "prettier --check src",
     "lint-fix": "eslint src --fix",
@@ -36,16 +36,16 @@
     "./*": {
       "types": "./*.d.ts",
       "require": "./*.cjs",
-      "import": "./*.js",
-      "default": "./*.js"
+      "import": "./*.mjs",
+      "default": "./*.mjs"
     }
   },
   "engines": {
     "node": ">=16"
   },
   "devDependencies": {
-    "@chubbyts/chubbyts-eslint": "^2.0.2",
-    "@chubbyts/chubbyts-packaging": "^1.0.3",
+    "@chubbyts/chubbyts-eslint": "^2.0.3",
+    "@chubbyts/chubbyts-packaging": "^2.0.3",
     "@types/node": "^20.4.4",
     "prettier": "^3.0.0",
     "typescript": "^5.1.6"
