@@ -31,7 +31,7 @@ npm i @chubbyts/chubbyts-http-types@^1.2.3
 
 ## Copyright
 
-2023 Dominik Zogg
+2024 Dominik Zogg
 
 [1]: https://www.npmjs.com/package/@chubbyts/chubbyts-http-types
 [2]: https://www.php-fig.org/psr/psr-15
