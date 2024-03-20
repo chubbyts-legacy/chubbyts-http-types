@@ -45,10 +45,10 @@
   },
   "devDependencies": {
     "@chubbyts/chubbyts-eslint": "^2.0.3",
-    "@chubbyts/chubbyts-packaging": "^2.0.3",
-    "@types/node": "^20.4.4",
-    "prettier": "^3.0.0",
-    "typescript": "^5.1.6"
+    "@chubbyts/chubbyts-packaging": "^2.0.6",
+    "@types/node": "^20.11.30",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.3"
   },
   "publishConfig": {
     "access": "public"
