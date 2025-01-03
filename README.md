@@ -1,5 +1,6 @@
 # chubbyts-http-types
 
+[![CI](https://github.com/chubbyts/chubbyts-http-types/workflows/CI/badge.svg?branch=master)](https://github.com/chubbyts/chubbyts-http-types/actions?query=workflow%3ACI)
 [![npm-version](https://img.shields.io/npm/v/@chubbyts/chubbyts-http-types.svg)](https://www.npmjs.com/package/@chubbyts/chubbyts-http-types)
 
 [![bugs](https://sonarcloud.io/api/project_badges/measure?project=chubbyts_chubbyts-http-types&metric=bugs)](https://sonarcloud.io/dashboard?id=chubbyts_chubbyts-http-types)
@@ -19,14 +20,14 @@ Http Request/Response types with middleware and handler, [PSR-15][2] inspired.
 
 ## Requirements
 
- * node: 16
+ * node: 18
 
 ## Installation
 
 Through [NPM](https://www.npmjs.com) as [@chubbyts/chubbyts-http-types][1].
 
 ```ts
-npm i @chubbyts/chubbyts-http-types@^1.2.3
+npm i @chubbyts/chubbyts-http-types@^1.3.0
 ```
 
 ## Copyright
