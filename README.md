@@ -27,12 +27,12 @@ Http Request/Response types with middleware and handler, [PSR-15][2] inspired.
 Through [NPM](https://www.npmjs.com) as [@chubbyts/chubbyts-http-types][1].
 
 ```ts
-npm i @chubbyts/chubbyts-http-types@^1.3.1
+npm i @chubbyts/chubbyts-http-types@^2.0.0
 ```
 
 ## Copyright
 
-2024 Dominik Zogg
+2025 Dominik Zogg
 
 [1]: https://www.npmjs.com/package/@chubbyts/chubbyts-http-types
 [2]: https://www.php-fig.org/psr/psr-15
