@@ -1,7 +1,7 @@
 {
   "name": "@chubbyts/chubbyts-http-types",
   "type": "module",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Http Request/Response types with middleware and handler, PSR-15 inspired.",
   "keywords": [
     "chubbyts",
@@ -17,11 +17,13 @@
   "repository": "chubbyts/chubbyts-http-types",
   "scripts": {
     "build": "node ./build.mjs",
-    "cs-fix": "prettier --write src",
-    "cs": "prettier --check src",
-    "lint-fix": "eslint src eslint.config.mjs --fix",
-    "lint": "eslint src",
-    "prepare": "rm -Rf dist && npm run build && npm run cs"
+    "cs-fix": "prettier --write src tests",
+    "cs": "prettier --check src tests",
+    "infection": "stryker run",
+    "lint-fix": "eslint src tests eslint.config.mjs vitest.config.ts --fix",
+    "lint": "eslint src tests",
+    "prepare": "npm run build",
+    "test": "vitest"
   },
   "prettier": {
     "printWidth": 120,
@@ -44,11 +46,16 @@
     "node": ">=18"
   },
   "devDependencies": {
-    "@chubbyts/chubbyts-eslint": "^3.0.3",
+    "@chubbyts/chubbyts-eslint": "^3.0.4",
     "@chubbyts/chubbyts-packaging": "^4.0.0",
-    "@types/node": "^22.10.5",
+    "@stryker-mutator/core": "^8.7.1",
+    "@stryker-mutator/vitest-runner": "^8.7.1",
+    "@types/node": "^22.13.1",
+    "@types/qs": "^6.9.18",
+    "@vitest/coverage-v8": "^3.0.5",
     "prettier": "^3.4.2",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.5"
   },
   "publishConfig": {
     "access": "public"
