@@ -1,5 +1,5 @@
 import type { Duplex, Stream } from 'stream';
-import type { Method, Request, Response, ServerRequest, Uri } from './message';
+import type { Method, Request, Response, ServerRequest, Uri } from './message.js';
 
 export type UriFactory = (uri: string) => Uri;
 
