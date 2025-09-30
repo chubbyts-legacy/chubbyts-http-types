@@ -17,6 +17,8 @@
 [![sqale_index](https://sonarcloud.io/api/project_badges/measure?project=chubbyts_chubbyts-http-types&metric=sqale_index)](https://sonarcloud.io/dashboard?id=chubbyts_chubbyts-http-types)
 [![vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=chubbyts_chubbyts-http-types&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=chubbyts_chubbyts-http-types)
 
+**Deprecated: @chubbyts/chubbyts-http-types is replaced by@chubbyts/chubbyts-undici-server.**
+
 ## Description
 
 Http Request/Response types with middleware and handler, [PSR-15][2] inspired.
